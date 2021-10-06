@@ -1,0 +1,83 @@
+body{
+    font: normal 18pt arial;
+    
+}
+#corpo{
+
+    margin-top: 2;
+
+}
+a {
+    color: #000;
+ }
+ /* link que foi visitado */
+ a:visited {
+     color: #555;
+ }
+ /* quando o ponteiro do mouse passa no link */
+ a:hover {
+     color: #999;
+ }
+ /* quando o link for selecionado */
+ a:active {
+     color: #333;
+ }
+
+/*HEADER*/
+header{
+    text-align: center;
+}
+/*------*/
+
+/*SECTION*/
+section{
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    margin: auto;
+    width: 300px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.342);
+}
+
+#rSenha{
+    font: normal 9pt arial;
+    text-align: right;
+    color: black;
+    
+}
+
+#telaLogin{
+    text-align: center;
+}  
+#iptLogin{
+    width: 165px;
+    height: 25px;
+    border-top:unset;
+    border-right: unset;
+    border-left: unset;
+
+}
+#iptSenha{
+    width: 165px;
+    height: 25px;
+    border-top:unset;
+    border-right: unset;
+    border-left: unset;
+}
+#iptBtnLogin{
+    margin-top: 10%;
+    font-size: 15pt;
+    width: 150px;
+    height: 50px;
+
+    
+    
+}
+
+textarea:focus, input:focus {
+   
+    outline: 0;
+}
+
+
+/*-------*/
